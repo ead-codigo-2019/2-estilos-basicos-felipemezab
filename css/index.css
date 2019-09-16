@@ -1,12 +1,12 @@
 body {
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6em;
     margin: 0px;
-    background-color: black
 }
 
 .container {
     width: 50%;
+    height: 4243px;
     margin:auto;
     background-color: white;
     padding-left: 2rem;
@@ -19,13 +19,13 @@ body {
 }
 
 h1 {
-    color: red;
+    color: darkred;
     font-size: 42px;
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
 h2 {
-    color: red;
+    color: darkred;
     font-size: 36px;
     padding-top: 2rem;
     padding-bottom: 1rem;
@@ -58,23 +58,23 @@ li {
 
     
 img {
-    margin:10px auto;
-    display:block;
-    }
+     margin:10px auto;
+     display:block;
+     }
 
  .cita {    
      height: 45px;
      width: 10px;
-     background-color: red;
-
+     background-color: darkred;
+     margin-top: 50px;
 }
 
 .cita blockquote {
-    padding-top: 10px;
-    width: 800px;
-    font-size: 24px;
-    color: dimgray;
-
+     padding-top: 10px;
+     width: 800px;
+     font-size: 24px;
+     color: dimgray;
+     padding-top: 14px;
 
 }
 
@@ -83,21 +83,30 @@ img {
 .cita2 {
     height: 180px;
     width: 10px;
-    background-color: red;
-
+    background-color: darkred;
+    margin-top: 50px;
 }
 
 .cita2 blockquote {
     
-    width: 600px;
+    width: 800px;
     font-size: 24px;
     color: dimgrey;
     line-height: 2rem;
+    padding-top: 12px;
 }
 
 ol ul {
     margin-top: 2rem;
     margin-bottom: 2rem;
+    line-height: 2rem;
+    text-decoration-color: darkred;
+}
+
+li {
+    line-height: 2rem;
+    font-size: 18px; 
+    font-style: normal;
 }
 
 figcaption {
@@ -130,3 +139,58 @@ figcaption {
     font-size: 38px;
     line-height: 1.2;
 }
+
+.textocolor {
+    color: deeppink;
+}
+
+.bajadadecita {
+    font-size: 19px;
+    color: dimgray;
+    margin-top: 38px;
+}
+
+table, th, td {
+ 
+   
+    border-collapse: collapse;
+    font-size: 18px;    
+    color: dimgray;
+    text-align: left;
+    padding: 8px;
+    padding-right: 12px;
+    border-top: transparent;
+    border-right: transparent;
+    border-bottom: 1px solid rosybrown;
+    border-left: transparent;
+    
+   
+
+}
+
+
+
+
+.nombre {
+    color:#33afff;
+    font-weight: bold;
+
+}
+ pre {
+    color: darkred;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 5px;
+    padding: 8px;
+    line-height: 2rem;
+    
+    
+
+ }
+
+ hr {
+     color: darkred;
+ }
+  .darkred {
+      color: darkred;
+  }
